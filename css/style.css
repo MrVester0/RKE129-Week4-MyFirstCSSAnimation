@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze:wght@100&family=Lakki+Reddy&family=Ribeye+Marrow&family=Russo+One&family=Satisfy&family=Sedgwick+Ave+Display&family=Shantell+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=New+Tegomin&display=swap');
+
+body{
+    background-color: rgb(238, 211, 171);
+}
+
+.contaner {
+    width: 75%;
+    margin: 32px auto;
+}
+
+.heading{
+    text-align: center;
+}
+
+.th-table{
+    font-family: 'Shantell Sans', cursive;
+}
+
+.heading h1{
+    color: rgb(194, 171, 136);
+    font-family: 'Russo One', sans-serif;
+    font-size: 4rem;
+    position: relative;
+    animation: header;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header {
+    0% {top: -250px;}
+    100% {top: 35px;}
+}
+
+.brownie{
+    text-align: center;
+}
+
+.h2{
+    color: rgb(49, 43, 41);
+    font-family: 'Lakki Reddy', cursive;
+    font-size: 3rem;
+  
+}
+
+.image-main .photomain {
+    width: 450px;
+    padding-left: 200px;
+    padding-right: 100px;
+    border-radius: 40px;
+} 
+
+.about {
+    color: rgb(49, 26, 8);
+    font-size: 16px;
+    padding-left: 50px;
+    padding-top: 20px;
+    float: left;
+    width: 500px;
+    font-family: 'IM Fell Great Primer SC', serif;
+    position: relative;
+    animation: textLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+    
+@keyframes textLeft {
+    0% {left: -1000px;}
+    85% {left: 50px;}
+    100% {left: 0px;}
+}
+
+.keep-in-mind{
+    text-align: center;
+    color: rgb(68, 49, 25);
+    font-family: 'Lakki Reddy';
+}
+
+.Ingredients{
+    border: 1px solid rgb(138, 119, 96);
+}
+
+.table{
+    border: 2px solid rgb(172, 157, 140);
+    margin: 0 auto;
+    color: rgb(49, 38, 18);
+}
+
+.Instruction{
+    margin: auto;
+    width: 55%;
+    color: rgb(63, 44, 22);
+
+}
+
+.steps{
+    font-size: 20px;
+    font-family: 'IM Fell Great Primer SC', serif;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    animation: textLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes textLeft {
+    0% {left: -1000px;}
+    85% {left: 50px;}
+    100% {left: 0px;}
+}
+
+.Vester{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 1rem;
+    color: rgb(87, 67, 42);
+
+}
